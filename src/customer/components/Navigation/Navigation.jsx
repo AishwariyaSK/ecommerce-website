@@ -15,7 +15,8 @@ import {
 } from '@headlessui/react'
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useNavigate} from 'react-router-dom'
-import AuthModal from '../../Auth/AUthModal'
+import AuthModal from "../../Auth/AuthModal";
+
 
 const navigation = {
   categories: [
